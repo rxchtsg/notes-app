@@ -18,7 +18,7 @@ export default async function Home() {
 
   return (
     <main style={{ maxWidth: 600, margin: '40px auto', fontFamily: 'sans-serif' }}>
-      <h1 style={{ fontSize: 32, marginBottom: 20 }}>My Notes</h1>
+      <h1 style={{ fontSize: 32, marginBottom: 20 }}>Rachel's Notes</h1>
       <form action={addNote}>
         <input
           name="text"
